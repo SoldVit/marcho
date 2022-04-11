@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="css/login.min.css">
+  <link rel="stylesheet" href="css/shop.min.css">
 </head>
 
 <body>
@@ -71,7 +71,7 @@
 
   <main class="main">
 
-    <section class="top">
+     <section class="top">
    <div class="top__container" style="background-image: url('images/top-bg.jpg');">
      <div class="container">
        <h2 class="top__title title">LOG IN</h2>
@@ -94,70 +94,25 @@
    </div>
  </section>
 
-     <section class="modal">
-    <div class="container">
-      <div class="modal__links">
-        <a class="modal__link" href="#">
-          REGISTER
-        </a>
-        <a class="modal__link modal__link--active" href="#">
-          LOGIN
-        </a>
-      </div>
-      <form action="#" class="modal__form">
-        <label class="modal__label">
-          Username or email address*
-          <input class="modal__input" type="text" required>
-        </label>
-        <label class="modal__label">
-          Password*
-          <input class="modal__input" type="password" required>
-        </label>
-        <label class="modal__label">
-          <input type="checkbox">
-          Remember me
-        </label>
-      </form>
-      <button class="modal__btn" type="submit">
-        LOG IN
-      </button>
-      <a class="modal__error" href="#">
-        Lost your password?
-      </a>
-    </div>
-  </section>
 
-   <section class="video-fashion">
-  <div class="container">
-    <div class="video-fashion__inner">
-      <div class="video-fashion__popup" style="background-image: url('images/video-fashion.jpg');">
-        <a class="video-fashion__play" data-fancybox href="https://vimeo.com/191947042">
-          <img src="images/icons/play-btn.svg" alt="video play button">
-        </a>
-      </div>
-      <div class="video-fashion__content">
-        <p class="video-fashion__subtitle">
-          Winter Collection 20% Off
-        </p>
-        <h3 class="title video-fashion__title">
-          TRENDING FASHION
-        </h3>
-        <p class="video-fashion__text">
-          orem ipsum dolor sit amet, consectetur apiscing elit, sed do eiusmod temp incididunt ut labore et dolore
-          magna aliqua
-          consectetur adipiscing elit, sedu do eiusmod temp indidunt ut labore et dolore magna aliqua.. Quis ipsum
-          de ultcesm.
-          Risus commodo viverra maecenas.
-        </p>
-        <a href="#" class="video-fashion__link">
-          View Now
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-  
+    <section class="shop">
+      <div class="container">
+        <div class="shop__inner">
+          <div class="shop__filters filter">
 
+            <div class="filter-search">
+              <h3 class="filter-search__title"></h3>
+              <form class="filter-search__form" action="#">
+                <input class="filter-search__input" type="text">
+                <button class="filter-search__btn" type="submit"></button>
+              </form>
+            </div>
+
+          </div>
+          <div class="shop__content"></div>
+        </div>
+      </div>
+    </section>
 
   </main>
 
