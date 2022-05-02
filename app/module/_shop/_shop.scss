@@ -39,10 +39,6 @@
 
 .filter-search {
 
-  &__form {
-    display: flex;
-  }
-
   &__input {
     border: none;
     background-color: $bg;
@@ -52,13 +48,6 @@
   }
 
   &__btn {
-    border: none;
-    background-color: $accent;
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+    
   }
 }
